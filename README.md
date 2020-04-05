@@ -17,14 +17,14 @@ POST /api/conferences/get-by-title
 # Get conferences with exact start date
 POST /api/conferences/get-by-date
 {
-	"dateStart": "2019-01-22T12:00:00.000Z",
+    "dateStart": "2019-01-22T12:00:00.000Z",
 }
 
 # Get conferences with dates in specified range, i. e. with start >= dateStart and end <= dateFinish
 POST /api/conferences/get-by-date
 {
-	"dateStart": "2019-01-22T12:00:00.000Z",
-	"dateFinish": "2019-01-22T12:00:00.000Z"
+    "dateStart": "2019-01-22T12:00:00.000Z",
+    "dateFinish": "2019-01-22T12:00:00.000Z"
 }
 ```
 ```json
