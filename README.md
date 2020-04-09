@@ -10,7 +10,7 @@ List of available routes with required payload.
 # Get conferences by titles which include specified pattern
 POST /api/conferences/get-by-title
 {
-    "title": "Conf"
+    "pattern": "Conf"
 }
 ```
 ```json
